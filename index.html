@@ -5,10 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Donut Clicker</title>
+    <title>Donut Counter Game</title>
 </head>
 <body>
-  
-    <script src="app.js"></script>
+<!-- header with the company/cookies setting/author -->
+<div class="container">
+<header>
+    <h1>Welcome to Fred's Donut Shop</h1>
+    <div class="navigate">
+    <button id="about-us">About Us</button>
+    <button id="inspiration">Inspiration</button>
+    <button id="contact-me">Contact Me</button>
+    </div>
+</header>
+<!-- This is where you add a donut -->
+    <section class="donut-game">
+        <div id="donutCount">
+            <h2>Donut Count</h2>
+            <p id="count-id">0</p>
+            <h2>Add Donut</h2>
+            <p class="multiplier-amount">0</p>
+            <button id="add-button" class="add-donut-class" onclick="addDonut()">Add Donut</button>
+            <button id="subtract-button" class="subtract-donut-class" onclick="subtractDonut()">Remove Donut</button>
+            <button id="reset-button">Reset Game</button>
+        </div>
+    </section>
+</div>
+<!-- drop down boxes for company info and cookies -->
+<div class="modal-fred" style="display: block;">
+    <div class="modal-fred-content">
+        <p>Fred the Baker is a very respectable family man who cares very deeply about making his Donut shop the town's go-to hang out spot. He has been obsessing for over 45 years to make the perfect donuts in every possible flavor. Don't forget to stop by every Wednesday to check out our weekly specials!
+        </p>
+    </div>
+<div class="modal-cookie" style="display: block;">
+    <div class="modal-cookie-content">
+        <p>This donut game was inspired by the famous Cookie Clicker game.</p>
+    </div>        
+<div class="modal-contact" style="display: block;">
+    <div class="modal-contact-content">
+        <p>Hello, my name is Victoria. Thank you for visiting my page and playing one of the first games I have ever created. Follow me at <a href="https://www.linkedin.com/in/victoria-nguyen-462931204/">LinkedIn</a>
+        and my other projects on <a href="https://github.com/victzngu">Github.</a>
+        </p>
+    </div>
+</div>
+</div>
+<script src="app.js"></script>
+
+
 </body>
 </html>

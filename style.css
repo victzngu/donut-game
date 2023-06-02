@@ -1,0 +1,156 @@
+body{
+   background-image: url(https://www.foodbusinessnews.net/ext/resources/2020/2/donut_lead.jpg?height=667&t=1581611120&width=1080);
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(90, 92, 91, 0.6);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.about-us {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(90, 92, 91, 0.6);
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.inspiration {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(90, 92, 91, 0.6);
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.contact-me {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(90, 92, 91, 0.6);
+    color: white;
+    font-size: 25px;
+    border: none;
+}
+
+.donut-game{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+
+.count-id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-fred {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 125px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: white;
+    background-color: rgba(90, 92, 91, 0.6);
+}
+
+.modal-fred-content {
+    background-color: teal;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px white;
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.modal-cookie {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 125px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: white;
+    background-color: rgba(90, 92, 91, 0.6);
+}
+
+.modal-cookie-content {
+    background-color: teal;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px white;
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.modal-contact {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 125px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: white;
+    background-color: rgba(90, 92, 91, 0.6);
+}
+
+.modal-contact-content {
+    background-color: teal;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px white;
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: x-large;
+}
+
+.reset {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
